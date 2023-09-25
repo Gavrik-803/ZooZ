@@ -1,0 +1,15 @@
+{
+  "name": "zooz",
+  "version": "1.0.0",
+  "description": "Event networking application",
+  "main": "app/server.js",
+  "scripts": {
+    "start": "node app/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "socket.io": "^2.3.0"
+  }
+}
